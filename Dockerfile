@@ -1,5 +1,5 @@
-FROM anasty17/mltb:latest
-# FROM anasty17/mltb-oracle:latest
+FROM ghcr.io/dragonpower84/kai8407:latest
+# docker pull ghcr.io/dragonpower84/kai8407:latest
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
